@@ -11,9 +11,9 @@ const footerLinks = {
     { name: "체험하기", href: "#start", isExternal: false },
   ],
   company: [
-    { name: "회사 소개", href: "/about", isExternal: true },
+    { name: "동아리 소개", href: "/about", isExternal: true },
     { name: "블로그", href: "/blog", isExternal: true },
-    { name: "채용", href: "/careers", isExternal: true },
+    { name: "동아리 모집", href: "/careers", isExternal: true },
   ],
   support: [
     { name: "문의하기", href: "/contact", isExternal: true },
@@ -76,7 +76,7 @@ export default function Footer() {
           
           {/* 회사 */}
           <div>
-            <h4 className="text-white font-semibold mb-4">회사</h4>
+            <h4 className="text-white font-semibold mb-4">동아리</h4>
             <ul className="space-y-2">
               {footerLinks.company.map((link) => (
                 <li key={link.name}>
@@ -117,19 +117,19 @@ export default function Footer() {
             <div className="flex flex-wrap gap-6 text-sm">
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <span>contact@yammi.kr</span>
+                <span>lipsciencelip@gmail.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                <span>02-1234-5678</span>
+                <span>010-8227-1730</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />
-                <span>서울특별시</span>
+                <span>립사이언스</span>
               </div>
             </div>
             <div className="text-sm text-gray-400">
-              © 2024 냠냠급식. All rights reserved.
+              © 2025 냠냠급식. All rights reserved.
             </div>
           </div>
         </div>
