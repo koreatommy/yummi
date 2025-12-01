@@ -37,7 +37,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* 로고 */}
           <Link href="/" className="text-2xl font-bold text-green-600 dark:text-green-400">
-            하남교육재단 냠냠급식 팀
+            하남교육재단 하리보 팀
           </Link>
 
           {/* 데스크톱 메뉴 */}

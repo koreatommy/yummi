@@ -14,7 +14,7 @@ export default function HeroSection() {
           <div className="text-center lg:text-left space-y-8">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 text-sm font-medium mb-4">
               <Sparkles className="w-4 h-4" />
-              <span>초등학생 창업동아리 냠냠급식</span>
+              <span>초등학생 창업동아리 하리보</span>
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 dark:text-white">
